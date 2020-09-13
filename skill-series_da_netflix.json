@@ -1,0 +1,1347 @@
+{
+  "intents": [
+    {
+      "intent": "acao",
+      "examples": [
+        {
+          "text": "por favor, me mostre as séries de ação"
+        },
+        {
+          "text": "quais as séries de ação da netflix?"
+        },
+        {
+          "text": "quero ver uma série de ação"
+        },
+        {
+          "text": "série de ação"
+        },
+        {
+          "text": "você me indica alguma série de ação?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "animações",
+      "examples": [
+        {
+          "text": "desenhos"
+        },
+        {
+          "text": "me indica algum desenho?"
+        },
+        {
+          "text": "por favor, me mostre os desenhos"
+        },
+        {
+          "text": "quais as animações a netflix tem ?"
+        },
+        {
+          "text": "quero ver desenhos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "animes",
+      "examples": [
+        {
+          "text": "gosto muito de ver animes, quais eu posso acessar?"
+        },
+        {
+          "text": "quais os animes que tem na netflix?"
+        },
+        {
+          "text": "quero ver anime"
+        },
+        {
+          "text": "tem anime?"
+        },
+        {
+          "text": "você pode me indicar um anime?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "brasileiras",
+      "examples": [
+        {
+          "text": "por favor, me mostre as séries brasileiras"
+        },
+        {
+          "text": "quais as séries brasileiras que têm na netflix?"
+        },
+        {
+          "text": "quero ver uma série brasileira"
+        },
+        {
+          "text": "série brasileira"
+        },
+        {
+          "text": "tem alguma série brasileira na netflix?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "comedia",
+      "examples": [
+        {
+          "text": "gostaria de rir um pouco, me indica uma série de comédia?"
+        },
+        {
+          "text": "quais séries de comédia têm na netflix?"
+        },
+        {
+          "text": "quais séries de comédia você tem ai?"
+        },
+        {
+          "text": "qual série de comédia você me indica?"
+        },
+        {
+          "text": "quero ver uma série de comédia"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "drama",
+      "examples": [
+        {
+          "text": "drama"
+        },
+        {
+          "text": "hoje eu quero ver alguma série de drama"
+        },
+        {
+          "text": "me mostre as séries de drama por favor"
+        },
+        {
+          "text": "qual série de drama você me indica?"
+        },
+        {
+          "text": "quero ver uma série de drama"
+        },
+        {
+          "text": "tem série de drama na netflix?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "lgbt",
+      "examples": [
+        {
+          "text": "me indica uma série lgbt da netflix?"
+        },
+        {
+          "text": "por favor, me mostre as séries lgbt da netflix"
+        },
+        {
+          "text": "quero ver uma série lgbt"
+        },
+        {
+          "text": "tem alguma série lgbt aí?"
+        },
+        {
+          "text": "tem alguma série lgbt na netflix?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "series_da_netflix",
+      "examples": [
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "olá"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "terror",
+      "examples": [
+        {
+          "text": "quais as séries de terror da netflix?"
+        },
+        {
+          "text": "quero terror"
+        },
+        {
+          "text": "quero ver séries de terror"
+        },
+        {
+          "text": "quero ver uma série de terror"
+        },
+        {
+          "text": "série de terror"
+        },
+        {
+          "text": "séries de terror"
+        },
+        {
+          "text": "tem algo de terror pra me indicar?"
+        },
+        {
+          "text": "tem terror aí para me indicar?"
+        },
+        {
+          "text": "terror"
+        },
+        {
+          "text": "você tem alguma série bem assustadora?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tipo_de_series",
+      "examples": [
+        {
+          "text": "animes"
+        },
+        {
+          "text": "quais os tipos de séries vocês tem?"
+        },
+        {
+          "text": "quais o tipos de séries você me indica?"
+        },
+        {
+          "text": "quais séries a netflix tem?"
+        },
+        {
+          "text": "qual série você me indica?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "ação",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "as aventuras de merlin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ch:os:en",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cobra kai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "colony",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cursed a lenda do lago",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "domínio do tempo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "frontler",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "iris",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jessica jones",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jornada de heróis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kingdom",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "o atirador",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "o avanço da fenix",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "os indomáveis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "o último guardião",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "supergirl",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the 100",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the flash",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the umbrella academy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vikings",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "animacoes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "alienTv",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "as aventuras do gato de botas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "backyardigans",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carmen sandiego",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Contos assustadores da Masha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "galinha pintadinha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grizzy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hotel transilvânia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "luluzinha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Masha e o Urso",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "o chefinho",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "os jovens titâs em ação",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peppa Pig",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pocoyo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "power rangers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "space racers",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the garfield show",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the smurfs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "totally spies",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "zoe e raven",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "anime",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "baki o campeão",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carole e tuesday",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dorohedoro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "erased",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "forest of piano",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "great pretender",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kakegurui",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kujira no kora filho das baleias",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "last hope",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "little witch academia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "memórias de idhún",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "naruto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no game no life",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "os cavaleiros do zodíaco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "parasite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pilotos de dragão",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pokémon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "saiki kusuo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sonic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sword art online",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "brasileiras",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "3%",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "até que a morte nos separe 2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "borges",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chiquititas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cinegibi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "coisa mais linda",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "desaparecidos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "irmandade",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mundo mistério",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ninguém tá olhando",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "o escolhido",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "o grande gonzalez",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "o mecanismo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "patati patatá",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "portátil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "reality z",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "samantha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the circle Brasil o reality",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vai anitta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "z4",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "comedia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Beth em Nova York",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "brooklyn nine nine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "caçadoras de recompensas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dix pour cent",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "doc martin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ela quer tudo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "eu nunca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "friends",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fuller house",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gentefied",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "glee",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "good girls",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "modern family",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "one day at a time",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "professor iglesias",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the good place",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the ranch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "um maluco no pedaço",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "unbreakable kimmy schmidt",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "drama",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Anne with an E",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "as telefonistas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "a vida e a história de madam c.j. walker",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "away",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa noite outra vez",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dear my friends",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "degrassi next class",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "doces magnólias",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "doctor foster",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "escrava mãe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gran hotel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "olhos que condenam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "on the real",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "primeira vez amor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "switched",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the crown",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the eddy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the princess weiyoung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "traidores",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ultravioleta",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "lgbt",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "aj and the queen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ana e vitória",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "atypical",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "deixe a neve cair",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "duck butter",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elisa y Marcela",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "elite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "I am not okay with this",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "inocência",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "meu nome é ray",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "orange is the new black",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "please like me",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rupaul drag race",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "se eu fosse um homem",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sense 8",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sex education",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "the feels",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vis a vis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "você nem imagina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "zona rosa",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "terror",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "a house of blocks",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "all about love",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "a maldição da residência hill",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "a ordem",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ares",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "até a madrugada",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "black summer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "castlevania",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "eu vi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "glitch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "goedam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "o nevoeiro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "santa clarita diet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shadow hunters",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stranger things",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "teen wolf",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "um drink no inferno",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "van helsing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "walking dead",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "znation",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Sou um assistente, virtual em treinamento na escolha de séries da Netflix. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_4_1599949986745",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- a vida e a história de madam c.j. walker, \n- Anne with an E,\n- as telefonistas,\n- away,\n- Boa noite outra vez,\n- dear my friends,\n- degrassi next class,\n- doces magnólias,\n- doctor foster,\n- escrava mãe,\n- gran hotel,\n- olhos que condenam,\n- on the real,\n- primeira vez amor,\n- switched,\n- the crown,\n- the eddy,\n- the princess weiyoung,\n- traidores,\n- ultravioleta.\n\nAcho que essas são boas hein, corre lá e assiste, você vai gostar.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#drama",
+      "dialog_node": "node_1_1599949947718",
+      "previous_sibling": "node_2_1599955395192"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- a house of blocks, \n- a maldição da residência hill, \n- a ordem, \n- all about love, \n- ares, \n- até a madrugada, \n- black summer, \n- castlevania, \n- eu vi, \n- glitch, \n- goedam, \n- o nevoeiro, \n- santa clarita diet, \n- shadow hunters, \n- stranger things, \n- teen wolf, \n- um drink no inferno, \n- van helsing, \n- walking dead, \n- znation\n\nEssas são bem assustadoras"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#terror",
+      "dialog_node": "node_2_1599955395192",
+      "previous_sibling": "node_9_1599949916124"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- As aventuras de merlim, \n- ch:os:en, \n- cobra kai, \n- colony, \n- cursed a lenda do lago, \n- frontler, \n- iris, jessica jones, \n- jornada de heróis, \n- kingdom, \n- o atirador, \n- o avanço da fenix, \n- o ultimo guardião, \n- os indomáveis, \n- supergirl, \n- the 100, \n- the flash, \n- the umbrella academy, \n- vikings. \nAcho que vale a pena assistir pelo menos uma delas.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#acao",
+      "dialog_node": "node_3_1599806090127",
+      "previous_sibling": "node_4_1599804321892"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos séries de ação, animações, animes, conteúdos brasileiros, comédia, drama, lgbt e terror."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tipo_de_series",
+      "dialog_node": "node_4_1599804321892",
+      "previous_sibling": "node_6_1599804155310"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- aj and the queen, \n- ana e vitória, \n- atypical, \n- deixe a neve cair, \n- duck butter, \n- elisa y Marcela, \n- elite, \n- i am not ok with this, \n- inocência, \n- meu nome é ray, \n- orange is the new black, \n- please like me, \n- rupaul drag race, \n- se eu fosse um homem, \n- sense 8, \n- sex education, \n- the feels, \n- vis a vis, \n- você nem imagina, \n- zona rosa.\n\nTenho 93% de certeza que você ficará fã de um desses"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#lgbt",
+      "dialog_node": "node_4_1599949986745",
+      "previous_sibling": "node_1_1599949947718"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, muito prazer!\nSou um assistente virtual em treinamento para te ajudar na escolha de séries da netflix, espero que esteja tudo bem contigo, como eu posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#series_da_netflix",
+      "dialog_node": "node_6_1599804155310",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- AlienTv, \n- as aventuras do gato de botas, \n- backyardigans, \n- carmen sandiego, \n- contos assustadores de masha, \n- galinha pintadinha, \n- grizzy, \n- hotel transilvânia, \n- luluzinha, \n- masha e o urso, \n- o chefinho, \n- os jovens titãs em ação, \n- peppa pig, \n- pocoyo, \n- power rangers, \n- space racers, \n- the garfield show, \n- the smurfs, \n- totally spies, \n- zoe e raven. \nOlha eu acho que pelo menos um desses vai ser de seu interesse, corre lá e assiste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#animações",
+      "dialog_node": "node_6_1599806546106",
+      "previous_sibling": "node_3_1599806090127"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- 3%, \n- até que a morte nos separe 2, \n- borges, \n- chiquitias, \n- cinegibi, \n- coisa mais linda, \n- desaparecidos, \n- irmandade, \n- mundo mistério, \n- ninguém tá olhando, \n- o escolhido, \n- o grande gonzalez, \n- o mecanismo, \n- patati patatá, \n- portátil, \n- reality z, \n- samantha, \n- the circle Brasil o reality, \n- vai anitta, \n- z4.\n\nO cinema nacional vem crescendo bastante nos últimos, acho que algum desses chamará a sua atenção, prepara uma pipoca e vai lá assistir, vale muito a pena!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#brasileiras",
+      "dialog_node": "node_8_1599949871772",
+      "previous_sibling": "node_9_1599949834371"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- baki o campeão, \n- carole e tuesday, \n- dorohedoro, erased, \n- forest of piano, \n- great pretender, \n- kujira no kora filho das baleias, \n- last hope, \n- little witch academia, \n- memórias de idhún, \n- naruto, \n- no game no life, \n- os cavaleiros do zodíaco, \n- parasite, \n- pilotos de dragão, \n- pokémon, \n- saiki kusuo, \n- sonic, \n- sword art online.\n\nEsses são muito bons, dá uma olhadinha \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#animes",
+      "dialog_node": "node_9_1599949834371",
+      "previous_sibling": "node_6_1599806546106"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- Beth em Nova York, \n- Brooklyn nine nine, \n- caçadora de recompensas, \n- dix pour cent, \n- doc martin, \n- ela quer tudo, \n- friends, \n- fuller house, \n- gentefied, \n- eu nunca, \n- professor iglesias, \n- glee, \n- o maluco no pedaço, \n- modern family, \n- one dat at a time, \n- rita, \n- the good place, \n- the ranch, \n- good girls, \n- unbreakable kimmy schmidt.\n\nPrepare os lencinhos, porque você vai chorar de tanto rir, se é comédia o que quer, então é comédia que te mostro. corre lá!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#comedia",
+      "dialog_node": "node_9_1599949916124",
+      "previous_sibling": "node_8_1599949871772"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "series_da_netflix",
+  "language": "pt-br",
+  "description": ""
+}
